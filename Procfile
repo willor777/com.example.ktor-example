@@ -1,1 +1,2 @@
-web: ./build/install/ktor-example/bin/ktor-example
+
+web: ./build/install/com.example.ktor-example/bin/com.example.ktor-example
