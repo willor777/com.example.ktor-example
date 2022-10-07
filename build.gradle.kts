@@ -31,3 +31,10 @@ dependencies {
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
 }
+
+
+// Task used by Heroku to make an Executable
+// Note that task 'installDist' is one that comes with the 'application' plugin
+tasks {
+    create("stage").dependsOn("installDist")
+}
