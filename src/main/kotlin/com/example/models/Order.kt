@@ -17,6 +17,7 @@ data class OrderItem(
 )
 
 
+// Dummy data for testing purposes. Normally data like this would be stored in a Database
 val orderStorage = listOf(
     Order(
         "2020-04-06-01", listOf(
